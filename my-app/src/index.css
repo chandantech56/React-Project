@@ -1,0 +1,16 @@
+.header-style{
+  background-color: hwb(220 81% 15%);
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.Logo{
+  width: 70px;
+  height: 50px;
+  margin: 0;
+  padding-left: 10px;
+
+}
+.Logo-text{
+  margin: -21px 0px 0px 80px;
+}
