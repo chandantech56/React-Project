@@ -9,6 +9,7 @@ const ResultLoginPage = () => {
     const[error, setError] = useState("")
 
     const navigate = useNavigate()
+    
 
     const submitHandler = (e) => {
         e.preventDefault()
