@@ -3,6 +3,7 @@
 }
 *{
   font-family: 'Times New Roman', Times, serif;
+
 }
 .Logo{
   width: 70px;
@@ -13,4 +14,23 @@
 }
 .Logo-text{
   margin: -21px 0px 0px 80px;
+}
+main{
+  min-height: 75vh;
+  padding: 40px;
+}
+footer{
+  background-color: rgb(230, 230, 45);
+  padding: 10px;
+  text-align: center;
+}
+
+marquee{
+  font-size: 1rem;
+}
+.p-style{
+  text-align: justify;
+}
+th.td{
+  text-align: center;
 }

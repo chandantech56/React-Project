@@ -1,15 +1,23 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import {container} from "react-bootstrap";
+import {Container} from "react-bootstrap";
+// import HomeScreen from "./components/screens/HomeScreen";
+import {Outlet} from "react-router-dom"
+
+
 
 function App () {
   return (
     <>
       <Header/>
-       <container>
-        <main></main>
-       </container>
+       <Container>
+        <main>
+          <Outlet/>
+
+        </main>
+       </Container>
       <Footer/>
+      
 
     </>
   );
